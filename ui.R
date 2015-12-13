@@ -7,7 +7,7 @@ playersNames<-substr(playersNames, 2, nchar(playersNames))
 shinyUI(fluidPage(
 
   # Application title
-  titlePanel("Informations about baseball player"),
+  titlePanel("Informations about baseball players"),
 
   # Sidebar with a slider input for number of bins
   sidebarLayout(
