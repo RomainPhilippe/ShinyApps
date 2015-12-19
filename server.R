@@ -8,9 +8,7 @@ library(ISLR)
 library(shiny)
 library(shinyapps)
 library(caret)
-shinyapps::setAccountInfo(name='hitterssalarycoursera',
-                          token='93A65A3ECD1ADAF3593F91A9EC1F7F2C',
-                          secret='djkaMS8PpbbXQmZzIR2tBkIULJ8oY0o1mY6JoHwk')
+
 
 Hitters<-na.omit(Hitters)
 
